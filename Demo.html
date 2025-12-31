@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KS Enterprises | Results You Can Rely On.</title>
+<style>
+:root { --primary:#003366; --secondary:#f4f6f8; --dark:#1c1c1c; --gray:#6b7280; --white:#ffffff; }
+*{box-sizing:border-box;}
+body { margin:0; font-family:'Segoe UI', Arial, sans-serif; background:var(--secondary); color:var(--dark); line-height:1.7; }
+header { background:var(--primary); color:white; padding:20px; position:sticky; top:0; z-index:10; }
+header .container { max-width:1200px; margin:auto; display:flex; justify-content:space-between; align-items:center; }
+.logo { font-size:2em; font-weight:bold; }
+nav ul { list-style:none; margin:0; padding:0; display:flex; }
+nav li { margin-left:20px; }
+nav a { color:white; text-decoration:none; font-weight:600; }
+section { padding:80px 20px; max-width:1200px; margin:auto; min-height:100vh; }
+footer { text-align:center; padding:30px; background:#0b2545; color:#cbd5e1; }
+
+/* Mobile Optimizations */
+@media(max-width:768px){
+    nav ul { flex-direction:column; gap:10px; }
+    section { padding:60px 20px; }
+    .hero h1 { font-size:2.5rem; }
+    .grid { grid-template-columns:1fr; }
+    .highlights { grid-template-columns:1fr; }
+    .map { height:250px; }
+}
+
+/* Page Sections */
+.hero { height:100vh; background:linear-gradient(rgba(0,51,102,.85),rgba(0,51,102,.85)), url("https://images.unsplash.com/photo-1497366216548-37526070297c"); background-size:cover; color:white; display:flex; align-items:center; text-align:center; }
+.highlights { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:30px; }
+.highlight { background:var(--primary); color:white; padding:35px; border-radius:12px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:40px; }
+.card { background:#f9fafb; border-radius:12px; overflow:hidden; }
+.card img { width:100%; height:230px; object-fit:cover; }
+.card-content { padding:30px; }
+.card h3 { color:var(--primary); margin-top:0; }
+.card ul { padding-left:18px; margin:0; }
+.card li { margin-bottom:8px; color:#333; }
+.contact-content { background:linear-gradient(rgba(0,51,102,.92),rgba(0,51,102,.92)), url("https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d"); background-size:cover; color:white; padding:50px; border-radius:12px; text-align:center; }
+.contact-content p { color:#e5e7eb; font-size:1.15rem; }
+.map { margin-top:20px; border-radius:12px; overflow:hidden; box-shadow:0 4px 8px rgba(0,0,0,0.2); max-width:100%; height:300px; }
+.map iframe { width:100%; height:100%; border:0; }
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="logo">KS</div>
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<!-- Home Section -->
+<section id="home" class="hero">
+<div>
+<h1>KS ENTERPRISES</h1>
+<p>Printing • Branding • Event Support • General Supply</p>
+<p>Results You Can Rely On.</p>
+</div>
+</section>
+
+<section>
+<h2>Why Choose KS Enterprises</h2>
+<div class="highlights">
+<div class="highlight">
+<h3>One-Stop Solution</h3>
+<p>All printing, branding, event, and supply services under one roof.</p>
+</div>
+<div class="highlight">
+<h3>Corporate Expertise</h3>
+<p>Trusted by businesses for premium, deadline-driven execution.</p>
+</div>
+<div class="highlight">
+<h3>Nationwide Reach</h3>
+<p>Reliable logistics and delivery across Pakistan.</p>
+</div>
+</div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+<h2>About Us</h2>
+<img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300&q=80" alt="Professional team meeting in a modern office" style="width:100%; height:300px; object-fit:cover; border-radius:8px; margin-bottom:20px;">
+<p>KS Enterprises is a Karachi-based professional printing, branding, event support, and general supply company providing complete business solutions under one roof. We specialize in premium-quality printing, innovative branding, corporate events, customized procurement, and nationwide delivery.</p>
+<p>Our mission is to simplify corporate sourcing while maintaining superior quality, reliability, and brand consistency for our clients across Pakistan.</p>
+<p><strong>Key Highlights:</strong></p>
+<ul>
+<li>Expertise: Over a decade of experience in the industry.</li>
+<li>Commitment: Delivering trustworthy, modern solutions for businesses nationwide.</li>
+<li>Values: Quality, innovation, and customer-centric service.</li>
+</ul>
+</section>
+
+<!-- Services Section -->
+<section id="services">
+<h2>Our Core Services</h2>
+<div class="grid">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1586953208448-b95a79798f07" alt="High-quality printed business cards and stationery">
+<div class="card-content">
+<h3>Printing Services</h3>
+<ul>
+<li>Digital & Offset Printing</li>
+<li>Large Format & Packaging</li>
+<li>Corporate Stationery</li>
+<li>Apparel & Event Printing</li>
+</ul>
+</div>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1511578314322-379afb476865" alt="Event stage with branded backdrops">
+<div class="card-content">
+<h3>Corporate Branding</h3>
+<ul>
+<li>Office & Site Branding</li>
+<li>Promotional Giveaways</li>
+<li>Signage & Displays</li>
+<li>Customized Gifts</li>
+</ul>
+</div>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1552664730-d307ca884978" alt="Professional team meeting">
+<div class="card-content">
+<h3>Event & Exhibition Support</h3>
+<ul>
+<li>Stage & Backdrop Branding</li>
+<li>Stall Fabrication</li>
+<li>Badges, Lanyards</li>
+<li>LED & Display Rentals</li>
+</ul>
+</div>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f" alt="Graphic designers at work">
+<div class="card-content">
+<h3>Design & Digital</h3>
+<ul>
+<li>Graphic Design</li>
+<li>Marketing Creatives</li>
+<li>Campaign Visuals</li>
+<li>Consultation</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+<div class="contact-content">
+<h2>Contact Information</h2>
+<p>Get in touch with KS Enterprises today to discuss your corporate needs. We're here to provide premium solutions nationwide.</p>
+<p><strong>CEO:</strong> Zeeshan Wasi</p>
+<p><strong>Phone:</strong> +92-339-200-7981</p>
+<p><strong>Address:</strong><br>Plot No 245-C, Pir Ahmed Zaman Town,<br>Block-2, Scheme-33, Karachi</p>
+<div class="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7233.565113053605!2d67.17723341189458!3d24.97351168680932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb347fb69638e39%3A0xbe2bacc865f2a2ba!2sBlock%202%20Pir%20Ahmed%20Zaman%20Pir%20Ahmed%20Zaman%20Town%2C%20Karachi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1767185640421!5m2!1sen!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" alt="Map showing KS Enterprises location in Block 2 Pir Ahmed Zaman Town, Karachi, Pakistan"></iframe>
+</div>
+</div>
+</section>
+
+<footer>© 2023 KS Enterprises — Corporate Printing & Branding Solutions</footer>
+</body>
+</html>
